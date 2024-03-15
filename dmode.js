@@ -84,7 +84,7 @@ but.addEventListener("click", () => {
         a2.style.color = "rgb(215, 215, 215)";
 
         document.querySelector(".des1").style.marginRight =  "190px";
-        document.querySelector(".des1").style.marginTop =  "-70px";
+        document.querySelector(".des1").style.marginTop =  "12px";
         document.querySelector(".des1").style.width =  "36%";
 
         document.getElementsByClassName("linking")[0].style.color = "white";
@@ -97,7 +97,7 @@ but.addEventListener("click", () => {
 
         document.querySelector(".des1").style.marginRight =  "0px";
         document.querySelector(".des1").style.marginTop =  "0px";
-        document.querySelector(".des1").style.width =  "50%";
+        document.querySelector(".des1").style.width =  "40%";
 
         document.getElementsByClassName("linking")[0].style.color = "black";
         document.getElementsByClassName("linking")[1].style.color = "black";
