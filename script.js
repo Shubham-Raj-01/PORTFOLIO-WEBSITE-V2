@@ -129,3 +129,15 @@ document.addEventListener("scroll", () => {
 })
 
 console.log(window.scrollY);
+
+
+// ----------------------------------------------------------------------------------
+
+document.querySelector("#pclk").addEventListener("click" , ()=>{
+
+    document.querySelector(".pzoom").style.display = "flex";
+})
+
+document.querySelector(".cut").addEventListener("click" , ()=>{
+    document.querySelector(".pzoom").style.display = "none";
+})

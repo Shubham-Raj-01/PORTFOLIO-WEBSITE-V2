@@ -104,33 +104,21 @@ but.addEventListener("click", () => {
     }
 })
 
-but.addEventListener("click", () => {
-    if (a3.style.backgroundColor == "var(--layer)") {
-        a3.style.background = "transparent";
-
+but.addEventListener("click" , ()=>{
+    if(document.querySelector(".backvid").style.display == "inline-block"){
         document.querySelector(".backvid").style.display = "none";
 
         document.querySelector(".backvid2").style.display = "inline-block";
 
         document.body.style.color = "black";
     }
-    else {
-        a3.style.backgroundColor = "var(--layer)";
 
+    else{
         document.querySelector(".backvid2").style.display = "none";
 
         document.querySelector(".backvid").style.display = "inline-block";
 
         document.body.style.color = "black";
-    }
-})
-
-but.addEventListener("click", () => {
-    if (a4.style.backgroundColor == "aquamarine") {
-        a4.style.backgroundColor = "black";
-    }
-    else {
-        a4.style.backgroundColor = "aquamarine";
     }
 })
 
