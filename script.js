@@ -141,3 +141,4 @@ document.querySelector("#pclk").addEventListener("click" , ()=>{
 document.querySelector(".cut").addEventListener("click" , ()=>{
     document.querySelector(".pzoom").style.display = "none";
 })
+
